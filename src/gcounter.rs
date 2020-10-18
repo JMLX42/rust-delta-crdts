@@ -71,7 +71,6 @@ impl<A: Actor, V: Value> DCRDT<A> for GCounter<A, V> {
 
 #[cfg(test)]
 mod tests {
-    // Note this useful idiom: importing names from outer (for mod tests) scope.
     use super::*;
 
     use num_traits::One;
